@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  background-color: #eee9de;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-family: Lato, sans-serif;
+}
+
+img {
+  max-width: 25em;
+}
+
+.newpic {
+  display: inline-block;
+  max-width: 25em;
+}
+
+.newbox {
+  display: inline-block;
+  max-width: 25em;
+}
+.sections {
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  padding: .4em .75em .5em;
+  text-align: center;
+}
+
+.button > li {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.button:hover {
+  background-color: #666;
+  color: white;
+}
