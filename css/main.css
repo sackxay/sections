@@ -2,9 +2,17 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   color: black;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   background-color: #eee9de;
+  vertical-align: middle;
+  text-align: left;
+  margin: 1.5rem;
+  display: inline;
+}
 
+body {
+  color: #333;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -16,10 +24,12 @@ h2 {
 }
 
 img {
-  max-width: 25em;
+  display: block;
+  width: 100%;
 }
 
 .newpic {
+  padding: .4em .75em .5em;
   display: inline-block;
   max-width: 25em;
 }
@@ -28,11 +38,12 @@ img {
   display: inline-block;
   max-width: 25em;
 }
+
 .sections {
   display: inline-block;
 }
 
-.button {
+.btn {
   display: inline-block;
   text-decoration: none;
   border-radius: 10px;
@@ -42,13 +53,14 @@ img {
   text-align: center;
 }
 
-.button > li {
+.btn > li {
   padding: 0;
   margin: 0;
   display: block;
+  color: black;
 }
 
-.button:hover {
+.btn:hover {
   background-color: #666;
   color: white;
 }
