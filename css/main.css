@@ -5,18 +5,23 @@ html {
   font-family: Lato, sans-serif;
   background-color: #eee9de;
   vertical-align: middle;
-  text-align: left;
-  margin: 1.5rem;
-  display: inline;
 }
 
 body {
-  color: #333;
+  /* text-align: center;
+  padding: 2em;
+  color: #333; */
   margin: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+section {
+  text-align: center;
+  padding: 2em 0;
+  color: #333;
 }
 
 h2 {
@@ -29,18 +34,20 @@ img {
 }
 
 .newpic {
-  padding: .4em .75em .5em;
   display: inline-block;
   max-width: 25em;
 }
 
 .newbox {
+  color: black;
+  text-align: left;
   display: inline-block;
   max-width: 25em;
 }
 
-.sections {
-  display: inline-block;
+.newpic,
+.newbox {
+  padding: 1em 1em 0;
 }
 
 .btn {
@@ -49,7 +56,7 @@ img {
   border-radius: 10px;
   border-style: solid;
   border-color: black;
-  padding: .4em .75em .5em;
+  padding: .75em;
   text-align: center;
 }
 
